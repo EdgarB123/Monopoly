@@ -1,0 +1,78 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16/03/2016, 16:18:29
+    Author     : jenifer
+*/
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+*{
+    font-family: Roboto;
+}
+
+small{
+    display:flex;
+    justify-content:center;
+}
+
+.strong{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+td.center {	
+    border-style:none;
+    border: transparent;
+    
+}
+
+td.especial{
+    background:  #8CB8A3;
+   
+}
+
+table{
+    border: 2px solid black;
+}
+
+td.vernom {
+    width: 102px;;
+    height: 42px;
+    padding: 0;
+    margin: 0;
+    background: #AFE7CC;
+}
+        
+td.vercolor {
+    width: 5%;
+
+    
+}
+
+td.hornom {
+    width: 42px;
+    height: 102px;
+    background: #AFE7CC;
+}
+
+.posicion{
+  width:80px;
+  height:80px;
+  border-radius: 100%;
+}
+
+img.sortida, img.parking, img.preso{
+    height: 100%;
+    width: 100%;
+    
+}
+
+img{
+    display:flex;
+    align-self:center;
+    height: 100px;
+    width: 100px; 
+}
